@@ -1,0 +1,174 @@
+.auth-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0fd9f5 0%, #2074b8 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-card {
+  background: #252f41;
+  border-radius: 16px;
+  width: 360px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+  padding-bottom: 32px;
+  position: relative;
+}
+
+.auth-header {
+  background: #3be3e3;
+  color: #272727;
+  font-weight: bold;
+  border-radius: 0 0 16px 16px;
+  font-size: 1.25rem;
+  width: 60%;
+  text-align: center;
+  padding: 18px 0;
+  position: absolute;
+  left: 20%;
+  top: -36px;
+  box-shadow: 0 6px 20px rgba(59,227,227,0.1);
+}
+
+.auth-avatar {
+  width: 80px;
+  height: 80px;
+  margin: 56px auto 24px;
+  border-radius: 50%;
+  background: #35445c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.7rem;
+  color: #7ea8ce;
+  border: 4px solid #526789;
+  /* If you want an icon, add background-image or place an svg here */
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 0 32px;
+}
+
+.auth-field {
+  display: flex;
+  align-items: center;
+  background: #353e53;
+  border-radius: 8px;
+  padding: 0 12px;
+}
+
+.auth-icon {
+  color: #7ea8ce;
+  font-size: 1.1rem;
+  margin-right: 8px;
+}
+
+.auth-field input {
+  border: none;
+  background: transparent;
+  padding: 14px 0;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+}
+
+.auth-options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.93rem;
+  color: #7ea8ce;
+  margin: -6px 0 10px 0;
+}
+
+.auth-btn {
+  background: #3be3e3;
+  color: #272727;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 12px 0;
+  margin-top: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.auth-btn:hover {
+  background: #38cfcf;
+}
+
+.auth-message {
+  margin-top: 12px;
+  text-align: center;
+  color: #f66;
+}
+
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 70px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.user-table th, .user-table td {
+  padding: 16px 8px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.user-table thead th {
+  background: #f8fafb;
+  color: #374151;
+  font-weight: bold;
+}
+
+.user-table tbody tr {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.user-avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  border: 2px solid #eaeaea;
+}
+
+.user-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status-active { background: #32c854; }
+.status-inactive { background: #faad14; }
+.status-suspended { background: #ee2c55; }
+
+.action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  margin: 0 4px;
+  font-size: 1.15rem;
+  transition: background 0.2s;
+}
+
+.action-btn.settings { color: #2498fa; }
+.action-btn.delete { color: #ee2c55; }
