@@ -22,8 +22,6 @@ A full-stack **MERN** (MongoDB, Express.js, React, Node.js) based **Login and Re
 
 ## 🗂️ Folder Structure
 
-```
-
 root/
 │
 ├── backend/           # Express/MongoDB/Node.js API
@@ -39,6 +37,7 @@ root/
 │   └── package.json
 │
 └── README.md
+```
 
 ````
 
@@ -134,9 +133,4 @@ Feel free to submit a pull request or open an issue on GitHub.
 
 **GitHub Repo:** [github.com/Equinox1704/login-registration-system](https://github.com/Equinox1704/login-registration-system)
 
-```
-
----
-
-Would you like me to also add a **“Tech Stack”** section (with logos and tool links for React, Node, MongoDB, etc.) at the top for a more polished GitHub appearance?
 ```
